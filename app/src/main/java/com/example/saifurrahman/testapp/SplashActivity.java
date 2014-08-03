@@ -90,7 +90,7 @@ public class SplashActivity extends Activity {
             protected void onPostExecute(String msg) {
 
                 Intent mainIntent = new Intent(getApplicationContext(),
-                        MainActivity.class);
+                        LoginActivity.class);
                 startActivity(mainIntent);
                 Log.d(Config.CRIMATRIX_LOG, "Already login");
                 finish();
